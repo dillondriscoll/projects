@@ -1,5 +1,17 @@
 #This will link to all of my other projects with a nice menu.
-import projects
+import twonumber
+import lgprime
+import adder
+import cuberoot
+import farenheit
+import fibonacci
+import fractionconversion
+import hello
+import looper
+import randnums
+import shippingcalc
+import testcalc
+import twonumber
 
 def main():
     print("Welcome to my code portfolio.\n")
@@ -16,29 +28,29 @@ def main():
         selector = (input("\n Enter the number of the program to run or" + \
                           " q to quit"))
         if selector == "1":
-            projects.lgprimefactor()
+            lgprime.lgprimefactor()
         elif selector == "2":
-            projects.shippingcalc()
+            shippingcalc.shippingcalc()
         elif selector == "3":
-            projects.cuberoot()
+            cuberoot.cuberoot()
         elif selector == "4":
-            projects.farenheitcalc()
+            farenheit.farenheitcalc()
         elif selector == "5":
-            projects.fractionconversion()
+            fractionconversion.fractionconversion()
         elif selector == "6":
-            projects.hello()
+            hello.hello()
         elif selector == "7":
-            projects.looper()
+            looper.looper()
         elif selector == "8":
-            projects.randNums()
+            randnums.randNums()
         elif selector == "9":
-            projects.testcalculator()
+            testcalc.testcalculator()
         elif selector == "10":
-            projects.adder()
+            adder.adder()
         elif selector == "11":
-            projects.fibonacciprinter()
+            fibonacci.fibonacciprinter()
         elif selector == "12":
-            projects.twonumberdivision()
+            twonumber.twonumberdivision()
         elif selector =="m":
             print (menu)
             
